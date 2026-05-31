@@ -387,7 +387,8 @@ NotebookLM se utiliza aquí no solo como herramienta de resumen, sino como entor
 
 ## Esquema de uso de notebookLM
 
-```lowchart TD
+```mermaid
+lowchart TD
 A[Definir la pregunta o problema de investigación] --> B[Seleccionar fuentes iniciales fiables]
 B --> C[Comprobar que las fuentes se importan correctamente]
 C --> D[Explorar una fuente de forma aislada]
