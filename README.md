@@ -1,9 +1,9 @@
-# REDES-INNOVAESTIC 2025 - Más allá del aula: (I+I)D Investigación e Innovación en Docencia. 
+# REDES-INNOVAESTIC 2026 - ¿Qué ocurre en nuestras aulas? Docencia universitaria en tranformación
 
 ## Taller 2. "NotebookLM para Docencia e Investigación"
 
-- Fecha y horario: Jueves 29 de mayo de 15 a 17 h
-- Lugar de realización: A2/ E21
+- Fecha y horario: Jueves 4 de junio de 16 a 18 h
+- Lugar de realización: ED/INF2
 
 ## Resumen del Evento
 
