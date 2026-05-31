@@ -384,3 +384,35 @@ El texto debe incluir:
 Al finalizar esta práctica, deberíamos tener una comprensión más profunda de la complejidad técnica y social de los AVM. El caso Zillow Offers muestra que los modelos predictivos no operan en el vacío: dependen de datos, supuestos, incentivos empresariales, procesos operativos, regulación y condiciones de mercado.
 
 NotebookLM se utiliza aquí no solo como herramienta de resumen, sino como entorno para practicar investigación asistida por IA: seleccionar fuentes, comparar evidencias, detectar contradicciones, crear notas curadas y transformar conocimiento en materiales de estudio. La calidad del resultado dependerá menos de hacer una única “buena pregunta” y más de construir un corpus fiable, formular prompts precisos y revisar críticamente las respuestas generadas.
+
+## Esquema de uso de notebookLM
+
+lowchart TD
+A[Definir la pregunta o problema de investigación] --> B[Seleccionar fuentes iniciales fiables]
+B --> C[Comprobar que las fuentes se importan correctamente]
+C --> D[Explorar una fuente de forma aislada]
+D --> E[Guardar una primera nota de referencia]
+
+    E --> F[Ampliar fuentes con Descubrir / búsqueda externa]
+    F --> G[Evaluar calidad, sesgos y utilidad de las fuentes]
+    G --> H[Activar el conjunto de fuentes relevantes]
+
+    H --> I[Formular preguntas comparativas y críticas]
+    I --> J[Detectar contradicciones, lagunas y matices]
+    J --> K[Crear notas curadas por tema]
+
+    K --> L[Refinar notas: claridad, estructura y autonomía]
+    L --> M[Usar solo notas curadas como fuentes principales]
+    M --> N[Generar materiales con Studio]
+
+    N --> O[Guía de estudio]
+    N --> P[FAQ]
+    N --> Q[Mapa conceptual]
+    N --> R[Audio / podcast]
+
+    O --> S[Revisión crítica final]
+    P --> S
+    Q --> S
+    R --> S
+
+    S --> T[Discusión en clase y conclusiones]
