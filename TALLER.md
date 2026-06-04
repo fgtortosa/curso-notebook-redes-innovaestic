@@ -101,7 +101,7 @@ Háblame sobre el uso de modelos de valoración automatizada (AVM) en el sector 
 
 ## Fase 2: ampliación, evaluación y profundización con NotebookLM
 
-### 2.1. Uso de la herramienta Descubrir
+### 2.1. Uso de la herramienta de Buscar nuevas fuentes en la web
 
 La herramienta **Buscar nuevas fuentes en la web / Busqueda profunda** permite ampliar la base de conocimiento sugiriendo fuentes adicionales relevantes. En este paso no asumiremos que todas las sugerencias son de calidad suficiente; las trataremos como candidatas que deben ser evaluadas.
 
@@ -161,7 +161,7 @@ Identifica afirmaciones en las que las fuentes no estén de acuerdo o enfaticen 
 
 Guarda la respuesta como una **Nota** titulada `Contradicciones y tensiones entre fuentes AVM`.
 
-## Fase 3: creación de notas analíticas a partir de fuentes específicas
+## Fase 3: creación de notas analíticas a partir de fuentes específicas usando informes
 
 NotebookLM permite interactuar con cada fuente, mostrar resúmenes y detectar temas clave. En esta fase generaremos notas consolidadas a partir de documentos específicos para facilitar su uso posterior.
 
@@ -170,7 +170,7 @@ NotebookLM permite interactuar con cada fuente, mostrar resúmenes y detectar te
 **Acción:**
 
 1. Selecciona como única fuente el PDF `University of Oxford Research. The future of automated real estate valuations (AVMs).pdf`.
-2. Pide a NotebookLM un resumen con el siguiente prompt:
+2. ve a informes->resumen y cambia el prompt pedeterminado usando el siguiente prompt:
 
 ```text
 Crea un resumen extenso del documento. El resumen debe evaluar los temas clave, las relaciones entre conceptos, los usos actuales y potenciales de los AVM, sus beneficios, sus limitaciones y los riesgos asociados. El resultado se utilizará posteriormente como fuente de trabajo, por lo que debe ser claro, completo y autocontenido.
